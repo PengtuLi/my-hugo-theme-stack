@@ -1,0 +1,11 @@
+{{- $path := .Get 0 -}}
+
+{{ with .Page.Resources.Get $path }}
+  {{- .RenderShortcodes }}
+{{ else }}
+  {{ errorf "Unable to get markdown resource %q" $path }}
+{{ end }}
+
+
+
+

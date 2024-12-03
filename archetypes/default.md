@@ -1,11 +1,13 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-description: 
-date: {{ .Date }}
-image: 
-math: 
-license: 
+author : "tutu"
+description:
+date: '{{ now.Format "2006-01-02" }}'
+lastmod: '{{ now.Format "2006-01-02" }}'
+image:
+math: true
 hidden: false
 comments: true
-draft: true
+draft: false
+categories : []
 ---

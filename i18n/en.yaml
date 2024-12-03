@@ -27,7 +27,7 @@ article:
         other: Related content
 
     lastUpdatedOn:
-        other: Last updated on
+        other: Modified
 
     readingTime:
         one: "{{ .Count }} minute read"
