@@ -11,8 +11,8 @@ params:
     favicon: 
 
     footer:
-        since:
-        customText:
+        since: 2024
+        customText: 
 
     dateFormat:
         published: Jan 02, 2006
@@ -21,10 +21,10 @@ params:
     sidebar:
         compact: true
         emoji: "🍥"
-        subtitle: "Think more, work harder."
+        subtitle: "Think more, work hard."
         avatar:
             enabled: true
-            local: true
+            local: false
             src: /img/avatar.png
 
     article:
@@ -37,8 +37,8 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
-        provider: disqus
+        enabled: true
+        provider: utterances
 
         disqusjs:
             shortname:
@@ -118,8 +118,11 @@ params:
             id:
 
     widgets:
-        homepage: []
-        page: []
+        homepage:
+            - type: archives
+            - type: categories
+        page:
+            - type: toc
 
     opengraph:
         twitter:
