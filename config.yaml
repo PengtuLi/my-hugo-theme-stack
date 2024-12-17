@@ -24,7 +24,7 @@ params:
         subtitle: "Think more, work hard."
         avatar:
             enabled: true
-            local: false
+            local: true
             src: /img/avatar.png
 
     article:
