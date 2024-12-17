@@ -8,7 +8,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: 
 
     footer:
         since:
@@ -19,13 +19,13 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        compact: false
-        emoji:
-        subtitle:
+        compact: true
+        emoji: "🍥"
+        subtitle: "Think more, work harder."
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: /img/avatar.png
 
     article:
         headingAnchor: false
@@ -33,7 +33,7 @@ params:
         toc: true
         readingTime: true
         license:
-            enabled: false
+            enabled: true
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
