@@ -3,9 +3,9 @@ title: "{{ replace .Name "-" " " | title }}"
 description: 
 date: {{ .Date }}
 image: 
-math: 
-license: 
+math: true
 hidden: false
 comments: true
-draft: true
+draft: false
+author : tutu
 ---
