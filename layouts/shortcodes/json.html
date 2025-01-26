@@ -1,0 +1,13 @@
+{{- $path := .Get 1 -}}
+
+{{ with .Resources.Get $path }}
+  {{ with . | transform.Unmarshal }}
+    <ul>
+      {{ range . }}
+        <li>{{ .title }}</li>
+      {{ end }}
+    </ul>
+  {{ end }}
+{{ else }}
+  {{ errorf "Unable to get page resource %q" $path }}
+{{ end }}
