@@ -1,6 +1,7 @@
-{{- $path := .Get 1 -}}
+{{- $path := .Get 0 -}}
+{{- $page := .Page -}}
 
-{{ with .Resources.Get $path }}
+{{ with $page.Resources.Get $path }}
   {{ with . | transform.Unmarshal }}
     <ul>
       {{ range . }}
