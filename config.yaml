@@ -8,7 +8,6 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: 
 
     footer:
         since: 2024
@@ -29,7 +28,7 @@ params:
 
     article:
         headingAnchor: false
-        math: false
+        math: true
         toc: true
         readingTime: true
         license:
