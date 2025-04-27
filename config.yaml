@@ -120,6 +120,9 @@ params:
         homepage:
             - type: archives
             - type: categories
+              params:
+                limit: 100
+            - type: search
         page:
             - type: toc
 
